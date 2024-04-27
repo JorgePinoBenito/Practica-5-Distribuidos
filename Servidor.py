@@ -5,7 +5,7 @@ import math #importing math library for mathematical operations
 
 class Server(object): #class for the server to perform the operations, object is the parent class of the class Server 
 
-    def add(self, a, b, c): #method for addition of two numbers a and b. Self is used to refer to the instance of the class
+    def add(self, a, b, c): #method for addition of three numbers a and b. Self is used to refer to the instance of the class
         return (a+b+c) #returning the result of addition
 
     def subtract(self, a, b): #method for subtraction of two numbers a and b. Self is used to refer to the instance of the class

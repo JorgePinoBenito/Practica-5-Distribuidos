@@ -1,6 +1,6 @@
 import Pyro4 #importing Pyro4 library for RMI
 
-Cliente = Pyro4.Proxy("PYRONAME:RMI.calculator")
+Cliente = Pyro4.Proxy("PYRONAME:RMI.calculator") #creating a proxy for the client to connect to the server
 
 eleccion = 0
 numero1, numero2, numero3, resultado = 0.0, 0.0, 0.0, 0.0
