@@ -6,7 +6,7 @@ Cliente = Pyro4.Proxy("PYRONAME:RMI.calculator") #creating a proxy for the clien
 class Test_Cliente_Servidor(unittest.TestCase): #class for testing the client and server
     def test_1(self): #method for testing the addition operation
         resultado = Cliente.add(1, 2, 3) #testing the addition operation
-        self.assertEqual(resultado, 5) #asserting the result of the addition operation
+        self.assertEqual(resultado, 6) #asserting the result of the addition operation
 
     def test_2(self): #method for testing the subtraction operation
         resultado = Cliente.subtract(1, 2)
